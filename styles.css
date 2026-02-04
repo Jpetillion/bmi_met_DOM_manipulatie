@@ -1,0 +1,47 @@
+:root {
+    --sP: 1rem;
+    --mP: 2rem;
+    --lP: 3rem;
+    --sRadius: .2rem;
+    --mRadius: .4rem;
+    --lRadius: .6rem;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input, button {
+    border-radius: var(--sRadius);
+    font-size: large;
+    font-weight: bold;
+}
+
+#bmiForm {
+    background-color: black;
+    padding: var(--sP);
+    border-radius: var(--mRadius);
+    margin: var(--lP);
+}
+
+#output {
+    font-weight: bold;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
